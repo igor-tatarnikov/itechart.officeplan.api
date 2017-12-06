@@ -1,0 +1,5 @@
+*.suo
+*.lock
+*.ide
+bin
+obj
