@@ -2,10 +2,71 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <BlockOnPossibleDataLoss>False</BlockOnPossibleDataLoss>
+    <GenerateSmartDefaults>True</GenerateSmartDefaults>
+    <IncludeTransactionalScripts>True</IncludeTransactionalScripts>
+    <ProfileVersionNumber>1</ProfileVersionNumber>
+    <ScriptRefreshModule>False</ScriptRefreshModule>
     <TargetDatabaseName>office_plan</TargetDatabaseName>
     <DeployScriptFileName>office_plan.sql</DeployScriptFileName>
     <TargetConnectionString>Data Source=localhost;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True</TargetConnectionString>
     <ProfileVersionNumber>1</ProfileVersionNumber>
+    <DoNotDropAggregates>True</DoNotDropAggregates>
+    <DoNotDropApplicationRoles>True</DoNotDropApplicationRoles>
+    <DoNotDropAsymmetricKeys>True</DoNotDropAsymmetricKeys>
+    <DoNotDropAssemblies>True</DoNotDropAssemblies>
+    <DoNotDropAudits>True</DoNotDropAudits>
+    <DoNotDropBrokerPriorities>True</DoNotDropBrokerPriorities>
+    <DoNotDropCertificates>True</DoNotDropCertificates>
+    <DoNotDropContracts>True</DoNotDropContracts>
+    <DoNotDropCredentials>True</DoNotDropCredentials>
+    <DoNotDropClrUserDefinedTypes>True</DoNotDropClrUserDefinedTypes>
+    <DoNotDropCryptographicProviders>True</DoNotDropCryptographicProviders>
+    <DoNotDropDatabaseAuditSpecifications>True</DoNotDropDatabaseAuditSpecifications>
+    <DoNotDropDatabaseRoles>True</DoNotDropDatabaseRoles>
+    <DoNotDropDatabaseTriggers>True</DoNotDropDatabaseTriggers>
+    <DoNotDropXmlSchemaCollections>True</DoNotDropXmlSchemaCollections>
+    <DoNotDropViews>False</DoNotDropViews>
+    <DoNotDropUsers>True</DoNotDropUsers>
+    <DoNotDropUserDefinedTableTypes>True</DoNotDropUserDefinedTableTypes>
+    <DoNotDropUserDefinedDataTypes>True</DoNotDropUserDefinedDataTypes>
+    <DoNotDropTables>False</DoNotDropTables>
+    <DoNotDropTableValuedFunctions>False</DoNotDropTableValuedFunctions>
+    <DoNotDropSymmetricKeys>True</DoNotDropSymmetricKeys>
+    <DoNotDropStoredProcedures>False</DoNotDropStoredProcedures>
+    <DoNotDropSignatures>True</DoNotDropSignatures>
+    <DoNotDropServices>True</DoNotDropServices>
+    <DoNotDropServerRoles>True</DoNotDropServerRoles>
+    <DoNotDropServerTriggers>True</DoNotDropServerTriggers>
+    <DoNotDropServerRoleMembership>True</DoNotDropServerRoleMembership>
+    <DoNotDropServerAuditSpecifications>True</DoNotDropServerAuditSpecifications>
+    <DoNotDropSequences>True</DoNotDropSequences>
+    <DoNotDropSearchPropertyLists>True</DoNotDropSearchPropertyLists>
+    <DoNotDropScalarValuedFunctions>True</DoNotDropScalarValuedFunctions>
+    <DoNotDropRules>True</DoNotDropRules>
+    <DoNotDropRoutes>True</DoNotDropRoutes>
+    <DoNotDropRoleMembership>True</DoNotDropRoleMembership>
+    <DoNotDropRemoteServiceBindings>True</DoNotDropRemoteServiceBindings>
+    <DoNotDropQueues>True</DoNotDropQueues>
+    <DoNotDropPermissions>True</DoNotDropPermissions>
+    <DoNotDropPartitionSchemes>True</DoNotDropPartitionSchemes>
+    <DoNotDropPartitionFunctions>True</DoNotDropPartitionFunctions>
+    <DoNotDropMessageTypes>True</DoNotDropMessageTypes>
+    <DoNotDropLogins>True</DoNotDropLogins>
+    <DoNotDropLinkedServers>True</DoNotDropLinkedServers>
+    <DoNotDropLinkedServerLogins>True</DoNotDropLinkedServerLogins>
+    <DoNotDropFullTextStoplists>True</DoNotDropFullTextStoplists>
+    <DoNotDropFullTextCatalogs>True</DoNotDropFullTextCatalogs>
+    <DoNotDropFilegroups>True</DoNotDropFilegroups>
+    <DoNotDropFileTables>True</DoNotDropFileTables>
+    <DoNotDropExtendedProperties>True</DoNotDropExtendedProperties>
+    <DoNotDropEventSessions>True</DoNotDropEventSessions>
+    <DoNotDropEventNotifications>True</DoNotDropEventNotifications>
+    <DoNotDropErrorMessages>True</DoNotDropErrorMessages>
+    <DoNotDropEndpoints>True</DoNotDropEndpoints>
+    <DoNotDropDefaults>True</DoNotDropDefaults>
+    <DoNotDropSynonyms>True</DoNotDropSynonyms>
+    <DropObjectsNotInSource>True</DropObjectsNotInSource>
   </PropertyGroup>
   <ItemGroup>
     <SqlCmdVariable Include="office_plan">
