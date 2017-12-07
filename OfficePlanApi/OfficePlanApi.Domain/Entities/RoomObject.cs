@@ -4,9 +4,9 @@
     {
         public int RoomId { get; set; }
 
-        public double CoordinateX { get; set; }
+        public int CoordinateX { get; set; }
 
-        public double CoordinateY { get; set; }
+        public int CoordinateY { get; set; }
 
         public virtual Room Room { get; set; }
     }

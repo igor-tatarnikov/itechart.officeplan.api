@@ -3,3 +3,5 @@
 *.ide
 bin
 obj
+/OfficePlanApi/.vs/OfficePlanApi/v15/Server/sqlite3/storage.ide-shm
+/OfficePlanApi/.vs/OfficePlanApi/v15/Server/sqlite3/storage.ide-wal
