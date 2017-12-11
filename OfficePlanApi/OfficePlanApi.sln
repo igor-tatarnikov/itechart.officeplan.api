@@ -9,6 +9,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfficePlanApi.Web", "Office
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "OfficePlanApi.Database", "OfficePlanApi.Database\OfficePlanApi.Database.sqlproj", "{518786BB-0795-4E4C-866F-98D17B446C13}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfficePlanApi.DAL", "OfficePlanApi.DAL\OfficePlanApi.DAL.csproj", "{E2B7942B-59F6-4190-BBC3-230E3DC44B56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfficePlanApi.BLL", "OfficePlanApi.BLL\OfficePlanApi.BLL.csproj", "{0B9B8F94-7C8E-46BE-9619-7DA8C99E89CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLevel", "DataAccessLevel", "{7A932F52-4370-400D-8444-42415B7508B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogicLayer", "BusinessLogicLayer", "{42DE336F-8500-421B-BEEB-3002B83C4C90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,9 +37,23 @@ Global
 		{518786BB-0795-4E4C-866F-98D17B446C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{518786BB-0795-4E4C-866F-98D17B446C13}.Release|Any CPU.Build.0 = Release|Any CPU
 		{518786BB-0795-4E4C-866F-98D17B446C13}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E2B7942B-59F6-4190-BBC3-230E3DC44B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B7942B-59F6-4190-BBC3-230E3DC44B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B7942B-59F6-4190-BBC3-230E3DC44B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B7942B-59F6-4190-BBC3-230E3DC44B56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B9B8F94-7C8E-46BE-9619-7DA8C99E89CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9B8F94-7C8E-46BE-9619-7DA8C99E89CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9B8F94-7C8E-46BE-9619-7DA8C99E89CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B9B8F94-7C8E-46BE-9619-7DA8C99E89CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2941A540-B57B-401B-9683-146FAA9DB4C5} = {7A932F52-4370-400D-8444-42415B7508B9}
+		{518786BB-0795-4E4C-866F-98D17B446C13} = {7A932F52-4370-400D-8444-42415B7508B9}
+		{E2B7942B-59F6-4190-BBC3-230E3DC44B56} = {7A932F52-4370-400D-8444-42415B7508B9}
+		{0B9B8F94-7C8E-46BE-9619-7DA8C99E89CB} = {42DE336F-8500-421B-BEEB-3002B83C4C90}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {196E9F0C-6699-4FB4-9BBD-F0C81EE3B90A}
